@@ -1,4 +1,4 @@
-package com.ignat.sfgpetclinic.model;
+package sfgpetclinic.model;
 
 public class PetType {
 
