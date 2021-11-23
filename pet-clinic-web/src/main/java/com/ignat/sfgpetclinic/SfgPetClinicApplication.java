@@ -1,4 +1,4 @@
-package com.ignat.sfgpetclinic.model;
+package com.ignat.sfgpetclinic;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
