@@ -1,11 +1,11 @@
 package com.ignat.sfgpetclinic.services.map;
 
 import com.ignat.sfgpetclinic.model.Vet;
-import com.ignat.sfgpetclinic.services.CrudService;
+import com.ignat.sfgpetclinic.services.VetService;
 
 import java.util.Set;
 
-public class AbstractVetMap extends AbstractMapService<Vet, Long> implements CrudService<Vet, Long> {
+public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
     @Override
     public Set<Vet> findAll() {
         return super.findAll();
